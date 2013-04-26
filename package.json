@@ -1,0 +1,11 @@
+{
+  "name": "angularjs-scaffold",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-concat": "~0.2.0",
+    "grunt-contrib-mincss": "0.4.0rc7",
+    "grunt-ngmin": "~0.0.2"
+  }
+}
