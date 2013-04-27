@@ -2,11 +2,18 @@
  Project script
 */
 
-angular.module('project', ['ui.bootstrap']);
+var app = angular.module('project', ['ui.bootstrap']);
+
+app.run(function ($rootScope) {
+
+    $rootScope.project_name = 'AngulasJS - Bootstrap';
+
+});
 
 var TabsDemoCtrl = function ($scope) {
-  $scope.panes = [
-    { title:"Dynamic Title 1", content:"Dynamic content 1" },
-    { title:"Dynamic Title 2", content:"Dynamic content 2" }
-  ];
+
+    $scope.panes = [
+        { title:"Dynamic Title 1", content:"Dynamic content 1" },
+        { title:"Dynamic Title 2", content:"Dynamic content 2" }
+    ];
 };
