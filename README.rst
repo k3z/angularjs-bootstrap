@@ -44,7 +44,7 @@ Run Bower to download dependencies
 
 ::
 
-    $ cd $ cd <project-root>/
+    $ cd <project-root>/
     $ bower install
 
 
