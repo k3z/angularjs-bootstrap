@@ -33,7 +33,7 @@ Install Grunt's command line interface (CLI). Grunt will be only installed in yo
 Installing angularjs-bootstrap
 ------------------------------
 
-Checkout the projetc.
+Checkout the project.
 
 ::
 
