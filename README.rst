@@ -5,6 +5,7 @@ Prerequisite
 ------------
 
 `Bower <https://github.com/bower/bower>`_ and `Grunt <http://gruntjs.com/getting-started>`_. depends on Node and npm.
+`My blog post <http://www.k3z.fr/blog/post/5/automatisation-bower-grunt>`_ (in french) explain how to use Bower and Grunt in an web project.
 
 * `NodeJS <http://nodejs.org/>`_
 * `npm <http://npmjs.org/>`_
@@ -61,6 +62,15 @@ Run Grunt to initialize project
 
 
 Development and production files are now in www/assets/build/
+
+
+Grunt can observe you files and execute somme task automaticaly.
+
+To run Grunt in background
+
+::
+
+    $ grunt watch
 
 
 You can now build an AngularJS-Bootstrap project.

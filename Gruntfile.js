@@ -62,10 +62,14 @@ module.exports = function(grunt) {
                 files: {
                     'www/assets/build/app.min.css': [
                         'www/assets/components/components-bootstrap/css/bootstrap.css',
-                        'www/assets/css/srceen.css'
+                        'www/assets/css/screen.css'
                     ]
                 }
             }
+        },
+        watch: {
+            files: ['www/assets/css/screen.css'],
+            tasks: ['mincss:frontend-css']
         }
     });
 
@@ -73,6 +77,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-mincss');
     grunt.loadNpmTasks('grunt-ngmin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', [
         'concat:angular-js',
