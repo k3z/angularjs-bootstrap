@@ -1,4 +1,4 @@
-Angularjs-bootstrap is a litle boilerplate project mixing AngularJS, Bootstrap, jQuery, Bower and Grunt.
+Angularjs-bootstrap is a little boilerplate project mixing AngularJS, Bootstrap, jQuery, Bower and Grunt.
 
 
 Prerequisite
